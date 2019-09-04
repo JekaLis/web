@@ -1,0 +1,29 @@
+*{
+    background: #E9FD92
+}
+h1{
+    color:#5452D1;
+    text-transform: uppercase;
+    font-family: cursive, sans-serif;
+    font-size: 3em;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+h2{
+    color: #BCB577;
+    font-family: fantasy, sans-serif;
+    font-size: 2em;
+}
+
+h3{
+    color: #7B83F3;
+    font-family: monospace, sans-serif;
+}
+p{
+    color: #865C58;
+    font-family: fantasy, sans-serif;
+}
+
