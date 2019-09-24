@@ -1,0 +1,270 @@
+*{
+    padding: 0;
+    margin:0;
+}
+
+.house, .house_wall{
+    position: relative;
+}
+
+.house_wall{
+    height: 200px;
+    width: 400px;
+    top: 350px;
+    left: 58px;
+    background-color: #E6E389;
+    border: 5px solid rgb(70, 66, 66);
+}
+
+.roof_chimney {
+    position: relative;
+    width: 50px;
+    height: 150px;
+    background: rgb(70, 66, 66);
+    bottom: 320px;
+    left: 25px;
+  }
+
+.house_roof{
+    position: relative;
+    width: 0;
+    height: 0;
+    bottom: 410px;
+    right: 50px;
+    border-left: 250px solid transparent;
+    border-right: 250px solid transparent;
+    border-bottom: 301px solid rgb(70, 66, 66);
+}
+
+.wall_window_green,.wall_window_red{
+    width: 80px;
+    height: 50px;
+    border: 2px solid rgb(70, 66, 66);
+    top: 20px;
+    left: 60px;
+    background: rgb(90, 155, 240);
+    position: relative;
+}
+.house_door{
+    position: relative;
+    width: 80px;
+    height: 130px;
+    top: 370px;
+    left: 65px;
+    background: rgb(107, 85, 50);
+    border: 2px solid rgb(70, 66, 66);
+}
+.house_handle{
+    position: relative;
+    width: 7px;
+    height: 7px;
+    left: 15px;
+    top: 50px;
+    background: black;
+    border-radius: 50%;
+}
+        /*HOUSE2*/
+
+.house2, .house_wall2, .house_roof2, .roof_chimney2{
+    position: absolute;
+}
+.house_wall2{
+    z-index: 1;
+    width: 300px;
+    height: 300px;
+    left: 385px;
+    top: 67px;
+    border: 5px solid rgb(100, 185, 250);
+    background: rgb(154, 112, 177);
+}
+.house_roof2{
+    z-index:2;
+    width: 50px;
+    height: 50px;
+    bottom: 230px;
+    left: -128px;
+    border-left: 185px solid transparent;
+    border-right: 185px solid transparent;
+    border-bottom: 250px solid rgb(100, 185, 250);
+}
+.wall_door2{
+    position: absolute;
+    width: 80px;
+    height: 130px;
+    top: 170px;
+    left: 55px;
+    background: rgb(61, 37, 73);
+    border: 2px solid rgb(100, 185, 250 );
+}
+.wall_window_green2{
+    position: absolute;
+    z-index: 4;
+    width: 80px;
+    height: 50px;
+    border: 5px solid rgb(100, 185, 250);
+    bottom: 80px;
+    left: 120px;
+    background: rgb(10, 91, 197);  
+}
+.wall_window_red2{
+    position: absolute;
+    z-index: 4;
+    width: 80px;
+    height: 50px;
+    border: 5px solid rgb(100, 185, 250);
+    bottom: 105px;
+    left: 120px;
+    background: rgb(10, 91, 197);  
+}
+.house_handle2{
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    left: 350px;
+    top: 50px;
+    background: black;
+    border-radius: 50%;
+}
+
+        /*HOUSE3*/
+
+.house3, .house_wall3, .house_roof3{
+    position: fixed;
+}       
+.house_wall3{
+    position: fixed;
+    width: 500px;
+    height: 400px;
+    margin: -315px 0px 0px 460px;
+    background: rgb(97, 202, 144);
+    border: 4px solid #97f235;
+}
+.house_roof3{
+    z-index: 1;
+    width: 430px;
+    height: -500px;
+    border-left: 135px solid transparent;
+    border-right: 135px solid transparent;
+    border-bottom: 200px solid #97f235;
+    margin: -195px 0px 0px -100px;  
+}
+.roof_chimney3 {
+    z-index: 2;
+    position: absolute;
+    width: 35px;
+    height: 120px;
+    background: #97f235;
+    bottom: -160px;
+    right: 485px;
+}
+.wall_door3{
+    z-index: 3;
+    position: fixed;
+    width: 80px;
+    height: 130px;
+    top: 435px;
+    left: 1325px;
+    background: rgb(43, 167, 224);
+    border: 3px solid #97f235;
+} 
+.wall_window_green3{
+    position: fixed;
+    width: 100px;
+    height: 70px;
+    border: 3px solid rgb(13, 68, 107);
+    bottom: 700px;
+    left: 1550px;
+    background: rgb(10, 91, 197); 
+}
+.wall_window_red3{
+    position: fixed;
+    width: 100px;
+    height: 70px;
+    border: 3px solid rgb(13, 68, 107);
+    bottom: 635px;
+    left: 1550px;
+    background: rgb(10, 91, 197);  
+}
+.wall_window_black3{
+    position: fixed;
+    width: 100px;
+    height: 70px;
+    border: 3px solid rgb(13, 68, 107);
+    bottom: 635px;
+    left: 1250px;
+    background: rgb(10, 91, 197); 
+}
+.wall_window_blue3{
+    position: fixed;
+    width: 100px;
+    height: 70px;
+    border: 3px solid rgb(13, 68, 107);
+    bottom: 700px;
+    left: 1250px;
+    background: rgb(10, 91, 197);   
+}
+.house_handle3{
+    position: fixed;
+    width: 7px;
+    height: 7px;
+    left: 1338px;
+    top: 520px;
+    background: black;
+    border-radius: 50%;
+}
+
+        /*HOUSE4*/
+
+.house4, .house_wall4, .house_roof4{
+    position: static;
+}
+.house_wall4{
+    padding: 0;
+    margin: 300px -1200px 0px;
+    width: 300px;
+    height: 300px;
+    left: 185px;
+    top: 127px;
+    border: 5px solid rgb(100, 185, 250);
+    background: rgb(154, 112, 177);
+}
+.house_roof4{
+    padding: 0;
+    margin: -410px 0px 0px;
+    margin-left: -40px;
+    width: 0px;
+    height: 0px;
+    border-left: 190px solid transparent;
+    border-right: 190px solid transparent;
+    border-bottom: 180px solid rgb(100, 185, 250);
+}
+.wall_door4{
+    position: static;
+    margin:10px 0px 0px 170px;
+    width: 80px;
+    height: 130px;
+    background: rgb(61, 37, 73);
+    border: 2px solid rgb(100, 185, 250 );
+}
+.wall_window_green4{
+    position: static;
+    margin: 85px 0px 20px 50px;
+    width: 100px;
+    height: 50px;
+    border: 5px solid rgb(100, 185, 250);
+    bottom: 80px;
+    left: 60px;
+    top:10px;
+    background: rgb(10, 91, 197);  
+}
+
+.house_handle4{
+    position: static;
+    margin: -80px 0px 0px 185px;
+    width: 7px;
+    height: 7px;
+    left: 350px;
+    top: 50px;
+    background: black;
+    border-radius: 50%;
+}
