@@ -1,0 +1,56 @@
+.flex-box{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.house_roof{
+    display: flex;
+    border-left: 230px solid transparent;
+    border-right: 230px solid transparent;
+    border-bottom: 301px solid rgb(70, 66, 66);
+    margin-top: -60%;
+    
+}
+.house_wall{
+    display: flex;
+    height: 300px;
+    width: 500px;
+    flex-direction: column;
+    justify-content: space-between;
+    background:linear-gradient(to right, rgb(219, 201, 126), rgb(216, 175, 110));
+    border: 3px solid rgb(129, 119, 76);
+    border-radius: 10px;
+}
+.house_windows{
+    display: flex;
+    justify-content: space-around;
+}
+.house_window1{
+    display: flex;
+    border: 2px solid rgb(129, 119, 76);
+    background-color:rgb(114, 146, 235); 
+    width: 85px;
+    height: 105px;
+    margin-bottom: 145px;  
+    margin-right: 80px;
+    margin-left: 80px;
+}
+.house_door{
+    display: flex;
+    width: 90px;
+    height: 130px;
+    background: rgb(107, 85, 50);
+    border: 2px solid rgb(129, 119, 76);
+    margin-top: -130px;
+    margin-left: 200px;
+}
+.house_handle{
+    display: flex;
+    width: 7px;
+    height: 7px;
+    margin-top: 60px;
+    background: black;
+    border-radius: 90%;
+}
