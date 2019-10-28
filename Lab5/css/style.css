@@ -1,0 +1,193 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(../images/background.jpg);
+}
+
+.webpage {
+    width: 1280px;
+    height: 2500px;
+    background: #ebd3b8;
+    margin: 20px auto;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5)
+}
+
+.header {
+    width: 1280px;
+    height: 120px;
+    background: #ebd3b8;
+}
+
+.header__logo {
+    font-family: 'Monotype Corsiva';
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #d7794a;
+    position: relative;
+    top: 35px;
+    left: 50px;
+}
+
+.main-section {
+    width: 1280px;
+    height: 720px;
+    background-image: url(../images/oc.jpg);
+}
+
+.menu-container {
+    width: 1280px;
+    height: 85px;
+    background: rgba(117, 115, 103, 0.5);
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    margin-left: 30px;
+}
+
+.menu__item a{
+    display: block;
+    padding: 30px;
+    font-family: 'Monotype Corsiva';
+    font-size: 20px;
+}
+
+.menu__item a:hover {
+    background: rgba(117, 115, 103, 0.5);
+    color: black;
+}
+
+.menu__item > * {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ebd3b8;
+}
+
+.main-text {
+   position: relative;
+   top: 240px;
+   left: 350px;
+}
+
+.welcome {
+    font-family: 'Monotype Corsiva';
+    font-size: 72px;
+    text-transform: uppercase;
+    color: #ebd3b8;
+    padding-bottom: 10px;
+}
+
+.company {
+    font-family: 'Monotype Corsiva';
+    font-size: 38px;
+    text-transform: uppercase;
+    color: #d7794a;
+    letter-spacing: 5px;
+}
+
+.team-text {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.team-title {
+    font-size: 61px;
+    color: #a95e39;
+    border-bottom: 2px solid currentColor;
+    display: inline-block;
+    line-height: 100px;
+}
+
+.team-subtitle {
+    margin: 75px auto;
+    width: 750px;
+    font-size: 20px;
+}
+
+.team-profile {
+    display: flex;
+    justify-content: center;
+}
+
+.team-profile__item {
+    text-align: center;
+}
+
+.personal-photo {
+    height: 285px;
+    width: 225px;
+}
+
+.name-surname {
+    font-size: 25px;
+    margin: 15px;
+}
+
+.info {
+    margin: 0px 80px;
+}
+
+.statistic-section {
+    width: 100%;
+    height: 250px;
+    background: #c59d6f;
+    margin-top: 200px;
+}
+
+.statistic-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+}
+
+.statistic__item {
+    margin: 0 60px;
+}
+
+.statistic-number {
+    font-size: 80px;
+    font-weight: bold;
+    color: #ebd3b8;
+}
+
+.statistic-text {
+    font-size: 20px;
+    color: #ebd3b8;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.contact-section {
+    width: 100%;
+    height: 400px;
+    background: #c59d6f;
+    margin-top: 200px;
+}
+
+.contact-text {
+    text-align: center;
+    position: relative;
+    top: 200px;
+}
+
+.contact-title {
+    color: #ebd3b8;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+.contact-subtitle {
+    color: #ebd3b8;
+    font-size: 20px;
+    padding: 0px 300px;
+    margin-top: 30px
+}
+
+
