@@ -1,0 +1,55 @@
+*{
+
+}
+.triangle1 {
+  position: absolute;
+  width: 0px; 
+  height: 0px; 
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent; 
+  border-bottom: 50px solid rgb(74, 21, 221);
+  -webkit-animation: stack1 3s;
+  
+}
+
+.triangle2 {
+  position: absolute;
+  width: 0px; 
+  height: 0px; 
+  margin: 40%;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent; 
+  border-top: 50px solid rgb(12, 12, 11);
+  -webkit-animation: stack2 3s;
+  
+}
+
+@keyframes stack1{
+  50%{
+      margin-top: 20%;
+      margin-left: 15%;
+  }
+  100% {
+      margin-top: 40%;
+      margin-left: 40%;
+  }
+}
+
+@keyframes stack2{
+  50%{
+      margin-top: 20%;
+      margin-left: 15%;
+  }
+  100% {
+      margin-top: 0%;
+      margin-left: 0%;
+  }
+}
+
+
+
+
+
+
+
+
