@@ -1,7 +1,6 @@
 hr {
-    border: none;
-    background-color: #1613c2;
-    height: 2px;
+    background-color: #370ef0;
+    height: 3px;
 }
 
 .wrap {
@@ -11,12 +10,16 @@ hr {
 }
 
 .my_row {
-    outline: 2px solid #4208e4;
-    max-width: 48%;
+    max-width: 40%;
     margin-left: 1%;
-    margin-top: 1%;
+    margin-top: 2%;
 }
 
 h4 {
     text-align: center;
+}
+.buttons {
+    position: fixed;
+    left: 32%;
+    
 }
